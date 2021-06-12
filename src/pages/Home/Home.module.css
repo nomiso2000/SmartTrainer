@@ -1,0 +1,58 @@
+.ContentContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.headerContent {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  flex-wrap: wrap-reverse;
+  justify-content: space-around;
+}
+.choosenDayTrain {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  flex-direction: column;
+}
+.MenuContent {
+  width: 80%;
+}
+.TrainContent {
+  width: 80%;
+}
+.TrainContentNone {
+  text-align: center;
+  width: 80%;
+}
+
+.WeekRange {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: center;
+}
+.WeekRangeItem {
+  margin-right: 20px;
+}
+
+.notSelected {
+  text-decoration: none;
+}
+.selected {
+  color: red;
+  font-weight: bold;
+}
+
+.graphic {
+  text-align: center;
+}
+.questionForm {
+  width: 50%;
+  text-align: start;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+}
